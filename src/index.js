@@ -20,5 +20,5 @@ const Counter = () => {
         </div>
       </div>
     )
-  } //hello!
+  } //hello! this is ben
 ReactDOM.render(<Counter/>, document.getElementById('app'))
