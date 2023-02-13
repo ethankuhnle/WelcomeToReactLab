@@ -2,7 +2,8 @@
 import React, {useState} from 'react'
 import ReactDOM from 'react-dom'
 
-
+//when increment is clicked, it runs the increment function which runs the setCount 
+//function it sets count to count + 1 and that changes the dom for the user the component re renders
 const Counter = () => {
     const [count, setCount] = useState(0)
      function increment(){
